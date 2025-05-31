@@ -8,7 +8,7 @@ import {
 import Signup from '../account/Signup';
 import Login from '../account/Login';
 import Chat from '../pages/Chat';
-
+import Home from '../pages/Home';
 function Layout(){
     return(
         <>
@@ -24,7 +24,11 @@ const router = createBrowserRouter([
     children:[
         {
             path:"/",
-            element:<Signup></Signup>
+            element:<Home></Home>
+        },
+        {
+          path:"/signup",
+          element:<Signup></Signup>
         },
         {
             path:"/login",
