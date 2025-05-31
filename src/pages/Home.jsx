@@ -3,7 +3,6 @@ import { useNavigate } from "react-router";
 
 function Home() {
   const navigate = useNavigate();
-
   return (
     <div className="min-h-screen bg-pink-100 flex flex-col items-center justify-center p-6 text-center">
       <h1 className="text-5xl font-extrabold text-pink-600 mb-8">TalkLine</h1>
